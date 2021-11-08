@@ -43,7 +43,7 @@ Steps for setting up my MacBook (intel, 2019) for personal use and bioinformatic
 
 ### Using App Store
 
-- Spark
+- [Spark](https://sparkmailapp.com)
 
 ### Other
 
@@ -60,9 +60,47 @@ Steps for setting up my MacBook (intel, 2019) for personal use and bioinformatic
 - [GitHub repos](http://www.packal.org/workflow/github-repos)
 - [convert](https://github.com/deanishe/alfred-convert)
 
-### VS Code
+### VS Code extensions
+
+- Better TOML
+- Bracket Pair Colorizer 2
+- markdownlint
+- Python
+- Python Docstring Generator AI
 
 ## Programming defaults 
+
+### ~/.config/starship.toml
+
+```toml
+[directory]
+truncate_to_repo = true
+truncation_length = 3
+truncation_symbol = "…/"
+
+[conda]
+format = "[$symbol$environment](bold green) "
+
+[python]
+format = "[$symbol$version](bold yellow) "
+
+[git_status]
+conflicted = "🏳"
+ahead = "🏎💨"
+behind = "😰"
+diverged = "😵"
+untracked = "🤷‍"
+stashed = "📦"
+modified = "📝"
+staged = '[++\($count\)](green)'
+renamed = "👅"
+deleted = "🗑"
+
+[username]
+style_user = "white"
+format = "[$user]($style) "
+show_always = false
+```
 
 ### ~/.zshrc
 
@@ -88,19 +126,25 @@ eval "$(starship init zsh)"
 
 ```bash
 # reference config from HomeBrew nano
-# you may need to modify the local path to HomeBrews's cellar
+# you may need to modify the local path to HomeBrews's Cellar
 include "/usr/local/Cellar/nano/*/share/nano/*.nanorc"
 ```
 
-### VS Code extensions
+### R packages
 
-- Better TOML
-- Bracket Pair Colorizer 2
-- markdownlint
-- Python
-- Python Docstring Generator AI
+```R
+# install base packages
+source("https://raw.githubusercontent.com/dzhang32/bioc_docker/main/setup_r_packages.R")
+```
 
-# Acknowledgements
+### R/git config
+
+```R
+# use dzhang32/rutils::setup_r_git(append = FALSE) to setup config defaults
+rutils::setup_r_git(append = FALSE)
+```
+
+## Acknowledgements
 
 This workflow was inspired by Thomas Beuzen's [gist](https://gist.github.com/TomasBeuzen/31e934a6ee2f1ab06c7e477478ceeb97). 
 
