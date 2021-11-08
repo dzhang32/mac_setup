@@ -1,6 +1,6 @@
 # New Mac setup
 
-Steps for setting up my MacBook (intel, 2019) for personal use and bioinformatics, tested on Big Sur (11.6.1). 
+Steps for setting up my MacBook pro (intel, 2019), running Big Sur (11.6.1), for personal use and bioinformatics. 
 
 ## Installing applications
 
@@ -29,6 +29,7 @@ Steps for setting up my MacBook (intel, 2019) for personal use and bioinformatic
 - [nano](https://www.nano-editor.org)
 - [NordVPN](https://formulae.brew.sh/cask/nordvpn#default)
 - [Notion](https://formulae.brew.sh/cask/notion#default)
+- [openssl](https://formulae.brew.sh/formula/openssl@3#default)*
 - [R](https://formulae.brew.sh/formula/r#default)
 - [R Studio](https://formulae.brew.sh/cask/rstudio#default)
 - [Slack](https://formulae.brew.sh/cask/slack#default)
@@ -40,6 +41,8 @@ Steps for setting up my MacBook (intel, 2019) for personal use and bioinformatic
 - [Zoom](https://formulae.brew.sh/cask/zoom#default)
 - [zsh-autosuggestions](https://formulae.brew.sh/formula/zsh-autosuggestions#default)
 - [zsh-syntax-highlighting](https://formulae.brew.sh/formula/zsh-syntax-highlighting#default)
+
+* required for `openssl` link needed for some downstream `R` packages.
 
 ### Using App Store
 
@@ -68,7 +71,18 @@ Steps for setting up my MacBook (intel, 2019) for personal use and bioinformatic
 - Python
 - Python Docstring Generator AI
 
-## Programming defaults 
+## General settings
+
+### 
+
+### Google drive
+
+- Sync `dz_home` by setting it as available offline
+- Copy previous `dz_home` directory to `~` via `cp` (download from Google drive splits zip files)
+- Sync local `dz_home` folder with Google Drive: *Google Drive -> Folders from your computer -> Add folder*
+- Correct any exceptions docs that could not be copied locally (e.g. `.gsheets`)
+
+## Programming config 
 
 ### ~/.config/starship.toml
 
