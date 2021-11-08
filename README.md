@@ -2,9 +2,9 @@
 
 Steps for setting up my MacBook (intel) for personal use and bioinformatics, tested on Big Sur (11.6.1). 
 
-## Applications
+## Installing applications
 
-### Install HomeBrew
+### HomeBrew
 
 ```bash
 
@@ -13,7 +13,7 @@ Steps for setting up my MacBook (intel) for personal use and bioinformatics, tes
 
 ```
 
-### Install applications (using HomeBrew)
+### Using HomeBrew
 
 [1Password](https://formulae.brew.sh/cask/1password#default)
 [Alfred](https://formulae.brew.sh/cask/alfred#default)
@@ -25,6 +25,7 @@ Steps for setting up my MacBook (intel) for personal use and bioinformatics, tes
 [Inkscape](https://formulae.brew.sh/cask/inkscape#default)
 [htop](https://formulae.brew.sh/formula/htop#default)
 [Mendeley](https://formulae.brew.sh/cask/mendeley#default)
+[nano](https://www.nano-editor.org)
 [NordVPN](https://formulae.brew.sh/cask/nordvpn#default)
 [Notion](https://formulae.brew.sh/cask/notion#default)
 python # TODO - check pyenv
@@ -40,11 +41,11 @@ python # TODO - check pyenv
 [zsh-autosuggestions](https://formulae.brew.sh/formula/zsh-autosuggestions#default)
 [zsh-syntax-highlighting](https://formulae.brew.sh/formula/zsh-syntax-highlighting#default)
 
-### Install applications (App Store)
+### Using App Store
 
 Spark
 
-### Other applications
+### Other
 
 [Cisco VPN client](https://www.ucl.ac.uk/isd/how-to/connecting-to-ucl-vpn-macos-11big-sur)
 [FileZilla](https://filezilla-project.org/download.php?type=client)
@@ -62,11 +63,30 @@ Spark
 
 ### VS Code
 
+## Programming defaults 
 
+### ~/.zshrc
 
+```bash
+# aliases
+alias ll='ls -alh'
+alias driserver='ssh driuser@128.40.163.130'
+alias mrserver='ssh dzhang@144.82.49.248'
+alias tunnel_mrserver='ssh -X -N -f -L localhost:8787:localhost:8787 dzhang@144.82.49.248'
+alias tunnel_docker='ssh -X -N -f -L localhost:8888:localhost:8888 dzhang@144.82.49.248'
+alias cd_phd='cd ~/dz_home/work/phd/'
+
+# autocomplete and syntax highlighting
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+autoload -Uz compinit && compinit
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# starship
+eval "$(starship init zsh)"
+```
 
 
 # Acknowledgements
 
-This workflow was inspired by this [gist](https://gist.github.com/TomasBeuzen/31e934a6ee2f1ab06c7e477478ceeb97) created by Thomas Beuzen. 
+This workflow was inspired by Thomas Beuzen's [gist](https://gist.github.com/TomasBeuzen/31e934a6ee2f1ab06c7e477478ceeb97). 
 
