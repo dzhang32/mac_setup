@@ -74,7 +74,7 @@ Steps for setting up my MacBook pro (intel, 2019), running Big Sur (11.6.1), for
 
 ## General settings
 
-### System preferences
+### System preferences
 
 - Trackpad:
   - Tap to click: check
