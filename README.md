@@ -25,10 +25,10 @@ Steps for setting up my MacBook (intel, 2019) for personal use and bioinformatic
 - [Inkscape](https://formulae.brew.sh/cask/inkscape#default)
 - [htop](https://formulae.brew.sh/formula/htop#default)
 - [Mendeley](https://formulae.brew.sh/cask/mendeley#default)
+- [miniconda](https://formulae.brew.sh/cask/miniconda#default)
 - [nano](https://www.nano-editor.org)
 - [NordVPN](https://formulae.brew.sh/cask/nordvpn#default)
 - [Notion](https://formulae.brew.sh/cask/notion#default)
-- python # TODO - check pyenv
 - [R](https://formulae.brew.sh/formula/r#default)
 - [R Studio](https://formulae.brew.sh/cask/rstudio#default)
 - [Slack](https://formulae.brew.sh/cask/slack#default)
