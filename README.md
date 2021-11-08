@@ -48,6 +48,7 @@ Spark
 [Caffeinate Control](http://www.packal.org/workflow/caffeinate-control)
 [Word Search](https://www.packal.org/workflow/word-search)
 [GitHub repos](http://www.packal.org/workflow/github-repos)
+[convert](https://github.com/deanishe/alfred-convert)
 
 ## VS Code
 
@@ -59,5 +60,6 @@ Sync Google
 Organise dock
 Organise apps
 Set VLC to default player
+
 
 
