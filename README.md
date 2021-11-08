@@ -1,6 +1,6 @@
 # New Mac setup
 
-My workflow for setting up a new MacBook for personal use and bioinformatics, tested on Big Sur. 
+My workflow for setting up a new MacBook for personal use and bioinformatics, tested on Big Sur (11.6.1). 
 
 ## 01 - Install HomeBrew
 
@@ -15,9 +15,13 @@ My workflow for setting up a new MacBook for personal use and bioinformatics, te
 
 [1Password](https://formulae.brew.sh/cask/1password#default)
 [Alfred](https://formulae.brew.sh/cask/alfred#default)
+[Bartender](https://formulae.brew.sh/cask/bartender#default)
 [Calibre](https://formulae.brew.sh/cask/calibre#default)
 [Docker](https://formulae.brew.sh/cask/docker#default)
 [Flux](https://formulae.brew.sh/cask/flux#default)
+[Google Drive](https://formulae.brew.sh/cask/google-drive#default)
+[Inkscape](https://formulae.brew.sh/cask/inkscape#default)
+[htop](https://formulae.brew.sh/formula/htop#default)
 [Mendeley](https://formulae.brew.sh/cask/mendeley#default)
 [NordVPN](https://formulae.brew.sh/cask/nordvpn#default)
 [Notion](https://formulae.brew.sh/cask/notion#default)
@@ -37,11 +41,10 @@ Spark
 
 ## 04 - Other applications
 
-[MS Office 365](https://www.office.com/) via UCL account
 [Cisco VPN client](https://www.ucl.ac.uk/isd/how-to/connecting-to-ucl-vpn-macos-11big-sur)
-[Sophos](https://www.ucl.ac.uk/isd/how-to/how-to-install-sophos-for-mac)
 [FileZilla](https://filezilla-project.org/download.php?type=client)
-[Google Drive](https://formulae.brew.sh/cask/google-drive#default)
+[MS Office 365](https://www.office.com/)
+[Sophos](https://www.ucl.ac.uk/isd/how-to/how-to-install-sophos-for-mac)
 
 ## Alfred 
 
@@ -56,10 +59,8 @@ Spark
 
 ## Additional steps
 
+Setup bartender
 Sync Google
-Organise dock
-Organise apps
-Set VLC to default player
 
 
 
