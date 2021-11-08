@@ -20,11 +20,14 @@ Steps for setting up my MacBook pro (intel, 2019), running Big Sur (11.6.1), for
 - [Bartender](https://formulae.brew.sh/cask/bartender#default)
 - [Calibre](https://formulae.brew.sh/cask/calibre#default)
 - [Docker](https://formulae.brew.sh/cask/docker#default)
+- [Fibridi](https://formulae.brew.sh/formula/fribidi#default)*
 - [Flux](https://formulae.brew.sh/cask/flux#default)
 - [Google Drive](https://formulae.brew.sh/cask/google-drive#default)
 - [Inkscape](https://formulae.brew.sh/cask/inkscape#default)
+- [harfbuzz](https://formulae.brew.sh/formula/harfbuzz#default)*
 - [htop](https://formulae.brew.sh/formula/htop#default)
 - [libgit2](https://formulae.brew.sh/formula/libgit2#default)*
+- [libtiff](https://formulae.brew.sh/formula/libtiff#default)*
 - [Mendeley](https://formulae.brew.sh/cask/mendeley#default)
 - [miniconda](https://formulae.brew.sh/cask/miniconda#default)
 - [nano](https://www.nano-editor.org)
