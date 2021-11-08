@@ -35,7 +35,7 @@ python # TODO - check pyenv
 
 Spark
 
-## 04 - Other applications ()
+## 04 - Other applications
 
 [MS Office 365](https://www.office.com/) via UCL account
 [Cisco VPN client](https://www.ucl.ac.uk/isd/how-to/connecting-to-ucl-vpn-macos-11big-sur)
@@ -47,6 +47,7 @@ Spark
 
 [Caffeinate Control](http://www.packal.org/workflow/caffeinate-control)
 [Word Search](https://www.packal.org/workflow/word-search)
+[GitHub repos](http://www.packal.org/workflow/github-repos)
 
 ## VS Code
 
