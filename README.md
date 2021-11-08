@@ -1,8 +1,10 @@
 # New Mac setup
 
-My workflow for setting up a new MacBook for personal use and bioinformatics, tested on Big Sur (11.6.1). 
+Steps for setting up my MacBook (intel) for personal use and bioinformatics, tested on Big Sur (11.6.1). 
 
-## 01 - Install HomeBrew
+## Applications
+
+### Install HomeBrew
 
 ```bash
 
@@ -11,7 +13,7 @@ My workflow for setting up a new MacBook for personal use and bioinformatics, te
 
 ```
 
-## 02 - Install applications (using HomeBrew)
+### Install applications (using HomeBrew)
 
 [1Password](https://formulae.brew.sh/cask/1password#default)
 [Alfred](https://formulae.brew.sh/cask/alfred#default)
@@ -35,32 +37,33 @@ python # TODO - check pyenv
 [Whatsapp](https://formulae.brew.sh/cask/whatsapp#default)
 [Zoom](https://formulae.brew.sh/cask/zoom#default)
 
-## 03 - Install applications (App Store)
+### Install applications (App Store)
 
 Spark
 
-## 04 - Other applications
+### Other applications
 
 [Cisco VPN client](https://www.ucl.ac.uk/isd/how-to/connecting-to-ucl-vpn-macos-11big-sur)
 [FileZilla](https://filezilla-project.org/download.php?type=client)
 [MS Office 365](https://www.office.com/)
 [Sophos](https://www.ucl.ac.uk/isd/how-to/how-to-install-sophos-for-mac)
 
-## Alfred 
+### Alfred workflows
+
+- Set Alfred default hotkey, replacing Spotlight. 
 
 [Caffeinate Control](http://www.packal.org/workflow/caffeinate-control)
 [Word Search](https://www.packal.org/workflow/word-search)
 [GitHub repos](http://www.packal.org/workflow/github-repos)
 [convert](https://github.com/deanishe/alfred-convert)
 
-## VS Code
-
-## R
-
-## Additional steps
-
-Setup bartender
-Sync Google
+### VS Code
 
 
+
+
+
+# Acknowledgements
+
+This workflow was inspired by this [gist](https://gist.github.com/TomasBeuzen/31e934a6ee2f1ab06c7e477478ceeb97) created by Thomas Beuzen. 
 
