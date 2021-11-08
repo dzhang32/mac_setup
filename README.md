@@ -32,10 +32,13 @@ python # TODO - check pyenv
 [R Studio](https://formulae.brew.sh/cask/rstudio#default)
 [Slack](https://formulae.brew.sh/cask/slack#default)
 [Spotify](https://formulae.brew.sh/cask/spotify#default)
+[Starship](https://formulae.brew.sh/formula/starship#default)
 [VLS](https://formulae.brew.sh/cask/vlc#default)
 [VS Code](https://formulae.brew.sh/cask/visual-studio-code#default)
 [Whatsapp](https://formulae.brew.sh/cask/whatsapp#default)
 [Zoom](https://formulae.brew.sh/cask/zoom#default)
+[zsh-autosuggestions](https://formulae.brew.sh/formula/zsh-autosuggestions#default)
+[zsh-syntax-highlighting](https://formulae.brew.sh/formula/zsh-syntax-highlighting#default)
 
 ### Install applications (App Store)
 
