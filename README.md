@@ -74,7 +74,19 @@ Steps for setting up my MacBook pro (intel, 2019), running Big Sur (11.6.1), for
 
 ## General settings
 
-### 
+### System preferences
+
+- Trackpad:
+  - Tap to click: check
+  - Swipe full screen: 4 fingers
+- Accessibility:
+  - Pointer control: 3 finger drag
+- Docker & Menu Bar: 
+  - Auto hide Dock: check
+
+### Safari
+
+- AutoFill: uncheck all
 
 ### Google drive
 
