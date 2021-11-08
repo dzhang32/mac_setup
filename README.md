@@ -24,6 +24,7 @@ Steps for setting up my MacBook pro (intel, 2019), running Big Sur (11.6.1), for
 - [Google Drive](https://formulae.brew.sh/cask/google-drive#default)
 - [Inkscape](https://formulae.brew.sh/cask/inkscape#default)
 - [htop](https://formulae.brew.sh/formula/htop#default)
+- [libgit2](https://formulae.brew.sh/formula/libgit2#default)*
 - [Mendeley](https://formulae.brew.sh/cask/mendeley#default)
 - [miniconda](https://formulae.brew.sh/cask/miniconda#default)
 - [nano](https://www.nano-editor.org)
@@ -42,7 +43,7 @@ Steps for setting up my MacBook pro (intel, 2019), running Big Sur (11.6.1), for
 - [zsh-autosuggestions](https://formulae.brew.sh/formula/zsh-autosuggestions#default)
 - [zsh-syntax-highlighting](https://formulae.brew.sh/formula/zsh-syntax-highlighting#default)
 
-* required for `openssl` link needed for some downstream `R` packages.
+*required for installation of some downstream `R` packages
 
 ### Using App Store
 
