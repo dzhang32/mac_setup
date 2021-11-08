@@ -1,8 +1,8 @@
 # New Mac setup
 
-Steps for setting up my MacBook pro (intel, 2019), running Big Sur (11.6.1), for personal use and bioinformatics. 
+Steps for setting up my MacBook pro (Intel, 2019), running Big Sur (11.6.1), for personal use and bioinformatics analyses.
 
-## Installing applications
+## Install applications
 
 ### HomeBrew
 
@@ -46,7 +46,7 @@ Steps for setting up my MacBook pro (intel, 2019), running Big Sur (11.6.1), for
 - [zsh-autosuggestions](https://formulae.brew.sh/formula/zsh-autosuggestions#default)
 - [zsh-syntax-highlighting](https://formulae.brew.sh/formula/zsh-syntax-highlighting#default)
 
-*required for installation of some downstream `R` packages
+*required for installation of `R` packages
 
 ### Using App Store
 
@@ -61,7 +61,7 @@ Steps for setting up my MacBook pro (intel, 2019), running Big Sur (11.6.1), for
 
 ### Alfred workflows
 
-- Set Alfred default hotkey, replacing Spotlight. 
+- Set Alfred default hotkey to *Cmd + Space*, replacing Spotlight.
 - [Caffeinate Control](http://www.packal.org/workflow/caffeinate-control)
 - [Word Search](https://www.packal.org/workflow/word-search)
 - [GitHub repos](http://www.packal.org/workflow/github-repos)
@@ -79,12 +79,12 @@ Steps for setting up my MacBook pro (intel, 2019), running Big Sur (11.6.1), for
 
 ### System preferences
 
+- Accessibility:
+  - Pointer control: 3 finger drag
 - Trackpad:
   - Tap to click: check
   - Swipe full screen: 4 fingers
-- Accessibility:
-  - Pointer control: 3 finger drag
-- Docker & Menu Bar: 
+- Docker & Menu Bar:
   - Auto hide Dock: check
 
 ### Safari
@@ -98,7 +98,7 @@ Steps for setting up my MacBook pro (intel, 2019), running Big Sur (11.6.1), for
 - Sync local `dz_home` folder with Google Drive: *Google Drive -> Folders from your computer -> Add folder*
 - Correct any exceptions docs that could not be copied locally (e.g. `.gsheets`)
 
-## Programming config 
+## Programming config
 
 ### ~/.config/starship.toml
 
@@ -176,5 +176,4 @@ rutils::setup_r_git(append = FALSE)
 
 ## Acknowledgements
 
-This workflow was inspired by Thomas Beuzen's [gist](https://gist.github.com/TomasBeuzen/31e934a6ee2f1ab06c7e477478ceeb97). 
-
+This workflow was inspired by Thomas Beuzen's [gist](https://gist.github.com/TomasBeuzen/31e934a6ee2f1ab06c7e477478ceeb97).
