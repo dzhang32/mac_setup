@@ -85,7 +85,7 @@ Steps for setting up my MacBook pro (Intel, 2019), running Big Sur (11.6.1), for
   - Tap to click: check
   - Swipe full screen: 4 fingers
 - Docker & Menu Bar:
-  - Auto hide Dock: check
+  - Auto-hide Dock: check
 
 ### Safari
 
@@ -93,10 +93,12 @@ Steps for setting up my MacBook pro (Intel, 2019), running Big Sur (11.6.1), for
 
 ### Google drive
 
-- Sync `dz_home` by setting it as available offline
-- Copy previous `dz_home` directory to `~` via `cp` (download from Google drive splits zip files)
-- Sync local `dz_home` folder with Google Drive: *Google Drive -> Folders from your computer -> Add folder*
-- Correct any exceptions docs that could not be copied locally (e.g. `.gsheets`)
+- Sync `dz_home` from Google Drive to local by setting directory to available offline
+- Copy `dz_home` directory to `~` via `cp` in terminal*
+- Sync local `dz_home` folder with Google Drive: *Google Drive -> Folders from your computer -> Add folder -> dz_home*
+- Correct any exceptions that could not be synced locally (e.g. `.gsheets`)
+
+*Downloading straight from Google Drive splits directorys in multiple `.zip` files
 
 ## Programming config
 
