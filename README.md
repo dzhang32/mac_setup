@@ -18,6 +18,7 @@ brew update
 - [Alfred](https://formulae.brew.sh/cask/alfred#default)
 - [Bartender](https://formulae.brew.sh/cask/bartender#default)
 - [Calibre](https://formulae.brew.sh/cask/calibre#default)
+- [Cold Turkey](https://formulae.brew.sh/cask/cold-turkey-blocker#default)
 - [Docker](https://formulae.brew.sh/cask/docker#default)
 - [Fibridi](https://formulae.brew.sh/formula/fribidi#default)*
 - [Flux](https://formulae.brew.sh/cask/flux#default)
