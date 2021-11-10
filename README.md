@@ -92,6 +92,8 @@ brew update
 ### Safari
 
 - AutoFill: uncheck all
+- Privacy
+  - Prevent cross-site tracking: uncheck
 
 ### Google drive
 
