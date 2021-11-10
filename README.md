@@ -86,6 +86,8 @@ brew update
 - Docker & Menu Bar:
   - Auto-hide Dock: check
   - Show recent applications: uncheck
+- Keyboard: 
+  - Correct spelling automatically: uncheck
 
 ### Safari
 
