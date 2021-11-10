@@ -1,6 +1,6 @@
 # New Mac setup
 
-Steps for setting up my MacBook pro (Intel, 2019), running Big Sur (11.6.1), for personal use and bioinformatics analyses.
+Steps for setting up my MacBook pro (Intel, 2019), running Montery (11.6.1), for personal use and bioinformatics analyses.
 
 ## Install applications
 
@@ -83,9 +83,9 @@ Steps for setting up my MacBook pro (Intel, 2019), running Big Sur (11.6.1), for
   - Pointer control: 3 finger drag
 - Trackpad:
   - Tap to click: check
-  - Swipe full screen: 4 fingers
 - Docker & Menu Bar:
   - Auto-hide Dock: check
+  - Show recent applications: uncheck
 
 ### Safari
 
