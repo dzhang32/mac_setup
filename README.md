@@ -29,7 +29,7 @@ brew update
 - [libtiff](https://formulae.brew.sh/formula/libtiff#default)*
 - [Mendeley](https://formulae.brew.sh/cask/mendeley#default)
 - [miniconda](https://formulae.brew.sh/cask/miniconda#default)
-- [nano](https://www.nano-editor.org)
+- [nano](https://formulae.brew.sh/formula/nano#default)
 - [NordVPN](https://formulae.brew.sh/cask/nordvpn#default)
 - [Notion](https://formulae.brew.sh/cask/notion#default)
 - [openssl](https://formulae.brew.sh/formula/openssl@3#default)*
