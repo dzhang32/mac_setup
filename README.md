@@ -7,10 +7,9 @@ Steps for setting up my MacBook pro (Intel, 2019), running Big Sur (11.6.1), for
 ### HomeBrew
 
 ```bash
-
 # from https://brew.sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
+brew update
 ```
 
 ### Using HomeBrew
@@ -39,6 +38,7 @@ Steps for setting up my MacBook pro (Intel, 2019), running Big Sur (11.6.1), for
 - [Slack](https://formulae.brew.sh/cask/slack#default)
 - [Spotify](https://formulae.brew.sh/cask/spotify#default)
 - [Starship](https://formulae.brew.sh/formula/starship#default)
+- [stats](https://formulae.brew.sh/cask/stats#default)
 - [VLS](https://formulae.brew.sh/cask/vlc#default)
 - [VS Code](https://formulae.brew.sh/cask/visual-studio-code#default)
 - [Whatsapp](https://formulae.brew.sh/cask/whatsapp#default)
@@ -102,7 +102,7 @@ Steps for setting up my MacBook pro (Intel, 2019), running Big Sur (11.6.1), for
 
 ### 1Password
 
-- Fill login or Show 1Password shortcut: **Cmd + /**
+- Fill login or Show 1Password shortcut: *Cmd + /*
 
 ## Programming config
 
