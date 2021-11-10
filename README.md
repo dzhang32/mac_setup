@@ -91,6 +91,12 @@ brew update
 - Keyboard: 
   - Correct spelling automatically: uncheck
 
+### Terminal 
+
+- Profiles: 
+  - Columns: 160
+  - Rows: 48
+
 ### Safari
 
 - AutoFill: uncheck all
@@ -109,6 +115,10 @@ brew update
 ### 1Password
 
 - Fill login or Show 1Password shortcut: *Cmd + /*
+
+### Cisco 
+
+- Remove Cisco AnyConnect Socket Filter
 
 ## Programming config
 
