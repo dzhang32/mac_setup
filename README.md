@@ -1,6 +1,6 @@
 # New Mac setup
 
-Steps for setting up my MacBook pro (Intel, 2019), running Montery (11.6.1), for personal use and bioinformatics analyses.
+Steps for setting up my MacBook pro (Intel, 2019), running Big Sur (11.6.1), for personal use and bioinformatics analyses.
 
 ## Install applications
 
@@ -23,9 +23,9 @@ Steps for setting up my MacBook pro (Intel, 2019), running Montery (11.6.1), for
 - [Fibridi](https://formulae.brew.sh/formula/fribidi#default)*
 - [Flux](https://formulae.brew.sh/cask/flux#default)
 - [Google Drive](https://formulae.brew.sh/cask/google-drive#default)
-- [Inkscape](https://formulae.brew.sh/cask/inkscape#default)
 - [harfbuzz](https://formulae.brew.sh/formula/harfbuzz#default)*
 - [htop](https://formulae.brew.sh/formula/htop#default)
+- [Inkscape](https://formulae.brew.sh/cask/inkscape#default)
 - [libgit2](https://formulae.brew.sh/formula/libgit2#default)*
 - [libtiff](https://formulae.brew.sh/formula/libtiff#default)*
 - [Mendeley](https://formulae.brew.sh/cask/mendeley#default)
@@ -99,6 +99,10 @@ Steps for setting up my MacBook pro (Intel, 2019), running Montery (11.6.1), for
 - Correct any exceptions that could not be synced locally (e.g. `.gsheets`)
 
 *Downloading straight from Google Drive splits directorys in multiple `.zip` files
+
+### 1Password
+
+- Fill login or Show 1Password shortcut: **Cmd + /**
 
 ## Programming config
 
@@ -174,6 +178,14 @@ source("https://raw.githubusercontent.com/dzhang32/bioc_docker/main/setup_r_pack
 ```R
 # use dzhang32/rutils::setup_r_git(append = FALSE) to setup config defaults
 rutils::setup_r_git(append = FALSE)
+```
+
+### Set up SSH keys
+
+```bash
+# ~/.ssh folder exists by default, no need to create
+# create key pair, then add ssh key to GitHub settings
+ssh-keygen -t rsa
 ```
 
 ## Acknowledgements
