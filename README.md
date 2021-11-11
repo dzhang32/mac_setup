@@ -17,7 +17,6 @@ brew update
 - [1Password](https://formulae.brew.sh/cask/1password#default)
 - [Alfred](https://formulae.brew.sh/cask/alfred#default)
 - [Bartender](https://formulae.brew.sh/cask/bartender#default)
-- [Be Focused Pro](https://apps.apple.com/us/app/be-focused-pro-focus-timer/id961632517?mt=12)
 - [Calibre](https://formulae.brew.sh/cask/calibre#default)
 - [Cold Turkey](https://formulae.brew.sh/cask/cold-turkey-blocker#default)
 - [Docker](https://formulae.brew.sh/cask/docker#default)
@@ -54,6 +53,7 @@ brew update
 ### Using App Store
 
 - [Spark](https://sparkmailapp.com)
+- [Be Focused Pro](https://apps.apple.com/us/app/be-focused-pro-focus-timer/id961632517?mt=12)
 
 ### Other
 
