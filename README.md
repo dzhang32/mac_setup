@@ -17,6 +17,7 @@ brew update
 - [1Password](https://formulae.brew.sh/cask/1password#default)
 - [Alfred](https://formulae.brew.sh/cask/alfred#default)
 - [Bartender](https://formulae.brew.sh/cask/bartender#default)
+- [Be Focused Pro](https://apps.apple.com/us/app/be-focused-pro-focus-timer/id961632517?mt=12)
 - [Calibre](https://formulae.brew.sh/cask/calibre#default)
 - [Cold Turkey](https://formulae.brew.sh/cask/cold-turkey-blocker#default)
 - [Docker](https://formulae.brew.sh/cask/docker#default)
@@ -30,7 +31,6 @@ brew update
 - [libtiff](https://formulae.brew.sh/formula/libtiff#default)*
 - [mariadb-connector-c](https://formulae.brew.sh/formula/mariadb-connector-c#default)*
 - [Mendeley](https://formulae.brew.sh/cask/mendeley#default)
-- [menubar-countdown](https://formulae.brew.sh/cask/menubar-countdown)
 - [miniconda](https://formulae.brew.sh/cask/miniconda#default)
 - [nano](https://formulae.brew.sh/formula/nano#default)
 - [NordVPN](https://formulae.brew.sh/cask/nordvpn#default)
