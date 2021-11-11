@@ -30,6 +30,7 @@ brew update
 - [libtiff](https://formulae.brew.sh/formula/libtiff#default)*
 - [mariadb-connector-c](https://formulae.brew.sh/formula/mariadb-connector-c#default)*
 - [Mendeley](https://formulae.brew.sh/cask/mendeley#default)
+- [menubar-countdown](https://formulae.brew.sh/cask/menubar-countdown)
 - [miniconda](https://formulae.brew.sh/cask/miniconda#default)
 - [nano](https://formulae.brew.sh/formula/nano#default)
 - [NordVPN](https://formulae.brew.sh/cask/nordvpn#default)
