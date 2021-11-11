@@ -160,10 +160,10 @@ show_always = false
 ```bash
 # aliases
 alias ll='ls -alh'
-alias driserver='ssh driuser@128.40.163.130'
-alias mrserver='ssh dzhang@144.82.49.248'
-alias tunnel_mrserver='ssh -X -N -f -L localhost:8787:localhost:8787 dzhang@144.82.49.248'
-alias tunnel_docker='ssh -X -N -f -L localhost:8888:localhost:8888 dzhang@144.82.49.248'
+alias driserver='ssh driuser@ip_address'
+alias mrserver='ssh dzhang@ip_address'
+alias tunnel_mrserver='ssh -X -N -f -L localhost:8787:localhost:8787 dzhang@ip_address'
+alias tunnel_docker='ssh -X -N -f -L localhost:8888:localhost:8888 dzhang@ip_address'
 alias cd_phd='cd ~/dz_home/work/phd/'
 
 # autocomplete and syntax highlighting
