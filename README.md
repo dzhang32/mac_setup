@@ -118,9 +118,15 @@ brew update
 
 - Fill login or Show 1Password shortcut: *Cmd + /*
 
-### Cisco 
+### Cisco
 
 - Remove Cisco AnyConnect Socket Filter
+
+### Sublime Text
+
+- Install Package Control
+- Using Package Control, install [WordCount](https://packagecontrol.io/packages/WordCount)
+- Set `.txt`, `.yml` and `.md` files to open through Sublime by default
 
 ## Programming config
 
