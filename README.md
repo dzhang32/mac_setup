@@ -41,6 +41,7 @@ brew update
 - [Spotify](https://formulae.brew.sh/cask/spotify#default)
 - [Starship](https://formulae.brew.sh/formula/starship#default)
 - [stats](https://formulae.brew.sh/cask/stats#default)
+- [Sublime Text](https://formulae.brew.sh/cask/sublime-text#default)
 - [VLS](https://formulae.brew.sh/cask/vlc#default)
 - [VS Code](https://formulae.brew.sh/cask/visual-studio-code#default)
 - [Whatsapp](https://formulae.brew.sh/cask/whatsapp#default)
