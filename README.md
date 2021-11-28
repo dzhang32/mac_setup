@@ -184,6 +184,8 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 eval "$(starship init zsh)"
 ```
 
+- Run `conda init zsh`, which will modify `~/.zshrc` and enable `conda activate` for managing venvs. 
+
 ### ~/.nanorc
 
 ```bash
