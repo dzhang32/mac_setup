@@ -22,6 +22,7 @@ brew update
 - [Docker](https://formulae.brew.sh/cask/docker#default)
 - [Fibridi](https://formulae.brew.sh/formula/fribidi#default)*
 - [Flux](https://formulae.brew.sh/cask/flux#default)
+- [Google Chrome](https://formulae.brew.sh/cask/google-chrome)
 - [Google Drive](https://formulae.brew.sh/cask/google-drive#default)
 - [harfbuzz](https://formulae.brew.sh/formula/harfbuzz#default)*
 - [htop](https://formulae.brew.sh/formula/htop#default)
