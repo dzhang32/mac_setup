@@ -15,6 +15,7 @@ brew update
 ### Using HomeBrew
 
 - [1Password](https://formulae.brew.sh/cask/1password#default)
+- [Adobe Acrobat Reader DC](https://formulae.brew.sh/cask/adobe-acrobat-reader)
 - [Alfred](https://formulae.brew.sh/cask/alfred#default)
 - [Bartender](https://formulae.brew.sh/cask/bartender#default)
 - [bluejeans](https://formulae.brew.sh/cask/bluejeans)
