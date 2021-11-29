@@ -17,6 +17,7 @@ brew update
 - [1Password](https://formulae.brew.sh/cask/1password#default)
 - [Alfred](https://formulae.brew.sh/cask/alfred#default)
 - [Bartender](https://formulae.brew.sh/cask/bartender#default)
+- [bluejeans](https://formulae.brew.sh/cask/bluejeans)
 - [Calibre](https://formulae.brew.sh/cask/calibre#default)
 - [Cold Turkey](https://formulae.brew.sh/cask/cold-turkey-blocker#default)
 - [Docker](https://formulae.brew.sh/cask/docker#default)
