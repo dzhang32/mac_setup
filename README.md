@@ -123,10 +123,6 @@ brew update
 
 - Fill login or Show 1Password shortcut: *Cmd + /*
 
-### Cisco
-
-- Remove Cisco AnyConnect Socket Filter
-
 ### Sublime Text
 
 - Install Package Control
