@@ -171,7 +171,8 @@ alias ll='ls -alh'
 alias driserver='ssh driuser@ip_address'
 alias mrserver='ssh dzhang@ip_address'
 alias tunnel_mrserver='ssh -X -N -f -L localhost:8787:localhost:8787 dzhang@ip_address'
-alias tunnel_docker='ssh -X -N -f -L localhost:8888:localhost:8888 dzhang@ip_address'
+alias tunnel_rocker_driserver='ssh -X -N -f -L localhost:8888:localhost:8888 driuser@ip_address'
+alias tunnel_rocker_mrserver='ssh -X -N -f -L localhost:8888:localhost:8888 dzhang@ip_address'
 alias cd_phd='cd ~/dz_home/work/phd/'
 
 # autocomplete and syntax highlighting
