@@ -18,9 +18,7 @@ brew update
 - [Adobe Acrobat Reader DC](https://formulae.brew.sh/cask/adobe-acrobat-reader)
 - [Alfred](https://formulae.brew.sh/cask/alfred#default)
 - [Bartender](https://formulae.brew.sh/cask/bartender#default)
-- [bluejeans](https://formulae.brew.sh/cask/bluejeans)
 - [Calibre](https://formulae.brew.sh/cask/calibre#default)
-- [Cold Turkey](https://formulae.brew.sh/cask/cold-turkey-blocker#default)
 - [Docker](https://formulae.brew.sh/cask/docker#default)
 - [Fibridi](https://formulae.brew.sh/formula/fribidi#default)*
 - [Flux](https://formulae.brew.sh/cask/flux#default)
@@ -50,7 +48,6 @@ brew update
 - [VLS](https://formulae.brew.sh/cask/vlc#default)
 - [VS Code](https://formulae.brew.sh/cask/visual-studio-code#default)
 - [Whatsapp](https://formulae.brew.sh/cask/whatsapp#default)
-- [Zoom](https://formulae.brew.sh/cask/zoom#default)
 - [zsh-autosuggestions](https://formulae.brew.sh/formula/zsh-autosuggestions#default)
 - [zsh-syntax-highlighting](https://formulae.brew.sh/formula/zsh-syntax-highlighting#default)
 
@@ -59,13 +56,9 @@ brew update
 ### Using App Store
 
 - [Spark](https://sparkmailapp.com)
-- [Be Focused Pro](https://apps.apple.com/us/app/be-focused-pro-focus-timer/id961632517?mt=12)
 
 ### Other
 
-- [Cisco VPN client](https://www.ucl.ac.uk/isd/how-to/connecting-to-ucl-vpn-macos-11big-sur)
-- [FileZilla](https://filezilla-project.org/download.php?type=client)
-- [MS Office 365](https://www.office.com/)
 - [Sophos](https://www.ucl.ac.uk/isd/how-to/how-to-install-sophos-for-mac)
 
 ### Alfred workflows
