@@ -35,6 +35,7 @@ brew update
 - [NordVPN](https://formulae.brew.sh/cask/nordvpn#default)
 - [Notion](https://formulae.brew.sh/cask/notion#default)
 - [openssl](https://formulae.brew.sh/formula/openssl@3#default)*
+- [postbird](https://formulae.brew.sh/cask/postbird#default)
 - [pre-commit](https://formulae.brew.sh/formula/pre-commit)
 - [qBittorrent](https://formulae.brew.sh/cask/qbittorrent#default)
 - [R](https://formulae.brew.sh/formula/r#default)
@@ -59,6 +60,7 @@ brew update
 ### Other
 
 - [Sophos](https://www.ucl.ac.uk/isd/how-to/how-to-install-sophos-for-mac)
+- [PostgreSQL](https://postgresapp.com/downloads.html)
 
 ### Alfred workflows
 
