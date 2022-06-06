@@ -1,6 +1,6 @@
 # New Mac setup
 
-Steps for setting up my MacBook pro (Intel, 2019), running Big Sur (11.6.1), for personal use and bioinformatics analyses.
+Steps for setting up my MacBook pro (Intel, 2019), running Mojave (11.6.1), for work.
 
 ## Install applications
 
@@ -16,21 +16,10 @@ brew update
 
 - [1Password](https://formulae.brew.sh/cask/1password#default)
 - [Adobe Acrobat Reader DC](https://formulae.brew.sh/cask/adobe-acrobat-reader)
-- [Alfred](https://formulae.brew.sh/cask/alfred#default)
-- [Bartender](https://formulae.brew.sh/cask/bartender#default)
-- [Docker](https://formulae.brew.sh/cask/docker#default)
-- [Flux](https://formulae.brew.sh/cask/flux#default)
-- [Google Chrome](https://formulae.brew.sh/cask/google-chrome)
 - [htop](https://formulae.brew.sh/formula/htop#default)
 - [miniconda](https://formulae.brew.sh/cask/miniconda#default)
 - [nano](https://formulae.brew.sh/formula/nano#default)
-- [Notion](https://formulae.brew.sh/cask/notion#default)
-- [pre-commit](https://formulae.brew.sh/formula/pre-commit)
-- [R](https://formulae.brew.sh/formula/r#default)
-- [R Studio](https://formulae.brew.sh/cask/rstudio#default)
 - [Slack](https://formulae.brew.sh/cask/slack#default)
-- [Starship](https://formulae.brew.sh/formula/starship#default)
-- [stats](https://formulae.brew.sh/cask/stats#default)
 - [Sublime Text](https://formulae.brew.sh/cask/sublime-text#default)
 - [VS Code](https://formulae.brew.sh/cask/visual-studio-code#default)
 - [zsh-autosuggestions](https://formulae.brew.sh/formula/zsh-autosuggestions#default)
@@ -38,23 +27,9 @@ brew update
 
 *required for installation of `R` packages
 
-### Using App Store
-
-- [Spark](https://sparkmailapp.com)
-- [Be Focused Pro](https://apps.apple.com/us/app/be-focused-pro-focus-timer/id961632517?mt=12)
-
 ### Other
 
-- [Cisco VPN client](https://www.ucl.ac.uk/isd/how-to/connecting-to-ucl-vpn-macos-11big-sur)
-- [FileZilla](https://filezilla-project.org/download.php?type=client)
 - [MS Office 365](https://www.office.com/)
-- [Sophos](https://www.ucl.ac.uk/isd/how-to/how-to-install-sophos-for-mac)
-
-### Alfred workflows
-
-- Set Alfred default hotkey to *Cmd + Space*, replacing Spotlight.
-- [Caffeinate Control](http://www.packal.org/workflow/caffeinate-control)
-- [Word Search](https://www.packal.org/workflow/word-search)
 
 ### VS Code extensions
 
@@ -63,30 +38,6 @@ brew update
 - Python
 - Python Docstring Generator
 - Tabnine
-
-### VS Code settings
-
-```json
-{
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "terminal.integrated.inheritEnv": false,
-    "terminal.integrated.env.osx": {
-        "PATH": ""
-    },
-    "python.formatting.provider": "black",
-    "python.formatting.blackArgs": [
-        "--line-length",
-        "80"
-    ],
-    "editor.formatOnSave": true,
-    "editor.rulers": [
-        80
-    ],
-    "tabnine.experimentalAutoImports": true
-}
-```
 
 ## General settings
 
@@ -125,38 +76,6 @@ brew update
 - Set `.txt`, `.yml` and `.md` files to open through Sublime by default
 
 ## Programming config
-
-### ~/.config/starship.toml
-
-```toml
-[directory]
-truncate_to_repo = true
-truncation_length = 3
-truncation_symbol = "…/"
-
-[conda]
-format = "[$symbol$environment](bold green) "
-
-[python]
-format = "[$symbol$version](bold yellow) "
-
-[git_status]
-conflicted = "🏳"
-ahead = "🏎💨"
-behind = "😰"
-diverged = "😵"
-untracked = "🤷‍"
-stashed = "📦"
-modified = "📝"
-staged = '[++\($count\)](green)'
-renamed = "👅"
-deleted = "🗑"
-
-[username]
-style_user = "white"
-format = "[$user]($style) "
-show_always = false
-```
 
 ### ~/.zshrc
 
