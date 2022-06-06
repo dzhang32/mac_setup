@@ -50,6 +50,7 @@ brew update
 - [Whatsapp](https://formulae.brew.sh/cask/whatsapp#default)
 - [zsh-autosuggestions](https://formulae.brew.sh/formula/zsh-autosuggestions#default)
 - [zsh-syntax-highlighting](https://formulae.brew.sh/formula/zsh-syntax-highlighting#default)
+- [Zoom](https://formulae.brew.sh/cask/zoom)
 
 *required for installation of `R` packages
 
@@ -59,6 +60,8 @@ brew update
 
 ### Other
 
+- [Cisco VPN client](https://www.ucl.ac.uk/isd/how-to/connecting-to-ucl-vpn-macos-11big-sur)
+- [MS Office 365](https://www.office.com/)
 - [Sophos](https://www.ucl.ac.uk/isd/how-to/how-to-install-sophos-for-mac)
 - [PostgreSQL](https://postgresapp.com/downloads.html)
 
