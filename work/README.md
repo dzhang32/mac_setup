@@ -20,6 +20,7 @@ brew update
 - [miniconda](https://formulae.brew.sh/cask/miniconda#default)
 - [nano](https://formulae.brew.sh/formula/nano#default)
 - [Slack](https://formulae.brew.sh/cask/slack#default)
+- [Spotify](https://formulae.brew.sh/cask/spotify)
 - [Sublime Text](https://formulae.brew.sh/cask/sublime-text#default)
 - [VS Code](https://formulae.brew.sh/cask/visual-studio-code#default)
 - [zsh-autosuggestions](https://formulae.brew.sh/formula/zsh-autosuggestions#default)
