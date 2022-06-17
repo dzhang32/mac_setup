@@ -131,6 +131,9 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # starship
 eval "$(starship init zsh)"
+
+# reverse-i-search
+bindkey "^R" history-incremental-search-backward
 ```
 
 ### ~/.nanorc
