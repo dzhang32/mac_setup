@@ -17,10 +17,10 @@ brew update
 - [1Password](https://formulae.brew.sh/cask/1password#default)
 - [Adobe Acrobat Reader DC](https://formulae.brew.sh/cask/adobe-acrobat-reader)
 - [htop](https://formulae.brew.sh/formula/htop#default)
-- [miniconda](https://formulae.brew.sh/cask/miniconda#default)
 - [nano](https://formulae.brew.sh/formula/nano#default)
 - [Slack](https://formulae.brew.sh/cask/slack#default)
 - [Spotify](https://formulae.brew.sh/cask/spotify)
+- [Starship](https://formulae.brew.sh/formula/starship#default)
 - [Sublime Text](https://formulae.brew.sh/cask/sublime-text#default)
 - [VS Code](https://formulae.brew.sh/cask/visual-studio-code#default)
 - [zsh-autosuggestions](https://formulae.brew.sh/formula/zsh-autosuggestions#default)
@@ -31,6 +31,7 @@ brew update
 ### Other
 
 - [MS Office 365](https://www.office.com/)
+- [pyenv](https://github.com/pyenv/pyenv-installer)
 
 ### VS Code extensions
 
@@ -78,9 +79,48 @@ brew update
 
 ## Programming config
 
+### ~/.config/starship.toml
+
+```toml
+[directory]
+truncate_to_repo = true
+truncation_length = 3
+truncation_symbol = "…/"
+
+[time]
+disabled=false
+
+[python]
+
+[git_status]
+conflicted = "🏳"
+ahead = "🏎💨"
+behind = "😰"
+diverged = "😵"
+untracked = "🤷 "
+stashed = "📦"
+modified = "📝"
+staged = '[++\($count\)](green)'
+renamed = "👅"
+deleted = "🗑"
+
+[username]
+style_user = "white"
+format = "[$user]($style) "
+show_always = false
+```
+
 ### ~/.zshrc
 
 ```bash
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
 # aliases
 alias ll='ls -alh'
 
@@ -92,8 +132,6 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # starship
 eval "$(starship init zsh)"
 ```
-
-- Run `conda init zsh`, which will modify `~/.zshrc` and enable `conda activate` for managing venvs. 
 
 ### ~/.nanorc
 
