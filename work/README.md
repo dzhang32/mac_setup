@@ -83,6 +83,8 @@ brew update
 ### ~/.config/starship.toml
 
 ```toml
+command_timeout = 10000
+
 [directory]
 truncate_to_repo = true
 truncation_length = 3
