@@ -32,6 +32,7 @@ brew update
 
 - [MS Office 365](https://www.office.com/)
 - [pyenv](https://github.com/pyenv/pyenv-installer)
+- [kubectl](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.20.md#client-binaries)
 
 ### VS Code extensions
 
@@ -123,6 +124,7 @@ eval "$(pyenv virtualenv-init -)"
 
 # aliases
 alias ll='ls -alh'
+alias k=kubectl
 
 # autocomplete and syntax highlighting
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
