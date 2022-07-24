@@ -183,12 +183,13 @@ eval "$(starship init zsh)"
 
 - Run `conda init zsh`, which will modify `~/.zshrc` and enable `conda activate` for managing venvs. 
 
-### ~/.nanorc
+### ~/.vimrc
 
 ```bash
-# reference config from HomeBrew nano
-# you may need to modify the local path to HomeBrews's Cellar
-include "/usr/local/Cellar/nano/*/share/nano/*.nanorc"
+set number
+syntax on
+set background=dark
+colorscheme gruvbox
 ```
 
 ### R packages
