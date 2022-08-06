@@ -32,7 +32,6 @@ brew update
 - [mariadb-connector-c](https://formulae.brew.sh/formula/mariadb-connector-c#default)*
 - [miniconda](https://formulae.brew.sh/cask/miniconda#default)
 - [nano](https://formulae.brew.sh/formula/nano#default)
-- [NordVPN](https://formulae.brew.sh/cask/nordvpn#default)
 - [Notion](https://formulae.brew.sh/cask/notion#default)
 - [openssl](https://formulae.brew.sh/formula/openssl@3#default)*
 - [postbird](https://formulae.brew.sh/cask/postbird#default)
