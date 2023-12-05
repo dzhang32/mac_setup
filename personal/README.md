@@ -185,6 +185,9 @@ pipx ensurepath
 # pipx is used to install Python CLI applications globally while still isolating them in virtual environments
 # we want to ensure poetry is installed globally
 pipx install poetry
+
+# ensure below that poetry inherits python version from pyenv
+poetry config virtualenvs.prefer-active-python true
 ```
 
 ### Vim
