@@ -1,6 +1,6 @@
-# New Mac setup
+# Mac setup
 
-Steps for setting up my MacBook pro (Intel, 2019), running Big Sur (11.6.1), for personal use and bioinformatics analyses.
+Steps for setting up my MacBook pro (Intel, 2019), running Sonoma (14.1.2), for personal use and software development.
 
 ## Install applications
 
@@ -17,8 +17,7 @@ brew update
 - [1Password](https://formulae.brew.sh/cask/1password#default)
 - [Adobe Acrobat Reader DC](https://formulae.brew.sh/cask/adobe-acrobat-reader)
 - [Alfred](https://formulae.brew.sh/cask/alfred#default)
-- [Bartender](https://formulae.brew.sh/cask/bartender#default)
-- [Calibre](https://formulae.brew.sh/cask/calibre#default)
+- [cmake](https://formulae.brew.sh/formula/cmake)*
 - [Docker](https://formulae.brew.sh/cask/docker#default)
 - [Fibridi](https://formulae.brew.sh/formula/fribidi#default)*
 - [Flux](https://formulae.brew.sh/cask/flux#default)
@@ -26,59 +25,33 @@ brew update
 - [Google Drive](https://formulae.brew.sh/cask/google-drive#default)
 - [harfbuzz](https://formulae.brew.sh/formula/harfbuzz#default)*
 - [htop](https://formulae.brew.sh/formula/htop#default)
-- [Inkscape](https://formulae.brew.sh/cask/inkscape#default)
 - [libgit2](https://formulae.brew.sh/formula/libgit2#default)*
 - [libtiff](https://formulae.brew.sh/formula/libtiff#default)*
 - [mariadb-connector-c](https://formulae.brew.sh/formula/mariadb-connector-c#default)*
-- [miniconda](https://formulae.brew.sh/cask/miniconda#default)
-- [nano](https://formulae.brew.sh/formula/nano#default)
+- [miniforge](https://formulae.brew.sh/cask/miniforge)
 - [Notion](https://formulae.brew.sh/cask/notion#default)
 - [openssl](https://formulae.brew.sh/formula/openssl@3#default)*
-- [postbird](https://formulae.brew.sh/cask/postbird#default)
 - [pre-commit](https://formulae.brew.sh/formula/pre-commit)
+- [pyenv](https://formulae.brew.sh/formula/pyenv#default)
 - [qBittorrent](https://formulae.brew.sh/cask/qbittorrent#default)
 - [R](https://formulae.brew.sh/formula/r#default)
 - [R Studio](https://formulae.brew.sh/cask/rstudio#default)
 - [Slack](https://formulae.brew.sh/cask/slack#default)
 - [Spotify](https://formulae.brew.sh/cask/spotify#default)
 - [Starship](https://formulae.brew.sh/formula/starship#default)
-- [stats](https://formulae.brew.sh/cask/stats#default)
 - [Sublime Text](https://formulae.brew.sh/cask/sublime-text#default)
 - [VLS](https://formulae.brew.sh/cask/vlc#default)
 - [VS Code](https://formulae.brew.sh/cask/visual-studio-code#default)
 - [Whatsapp](https://formulae.brew.sh/cask/whatsapp#default)
 - [zsh-autosuggestions](https://formulae.brew.sh/formula/zsh-autosuggestions#default)
 - [zsh-syntax-highlighting](https://formulae.brew.sh/formula/zsh-syntax-highlighting#default)
-- [Zoom](https://formulae.brew.sh/cask/zoom)
 
 *required for installation of `R` packages
-
-### Using App Store
-
-- [Spark](https://sparkmailapp.com)
-
-### Other
-
-- [Cisco VPN client](https://www.ucl.ac.uk/isd/how-to/connecting-to-ucl-vpn-macos-11big-sur)
-- [MS Office 365](https://www.office.com/)
-- [Sophos](https://www.ucl.ac.uk/isd/how-to/how-to-install-sophos-for-mac)
-- [PostgreSQL](https://postgresapp.com/downloads.html)
 
 ### Alfred workflows
 
 - Set Alfred default hotkey to *Cmd + Space*, replacing Spotlight.
-- [Caffeinate Control](http://www.packal.org/workflow/caffeinate-control)
-- [Word Search](https://www.packal.org/workflow/word-search)
-- [GitHub repos](http://www.packal.org/workflow/github-repos)
-- [convert](https://github.com/deanishe/alfred-convert)
-
-### VS Code extensions
-
-- Better TOML
-- Bracket Pair Colorizer 2
-- markdownlint
-- Python
-- Python Docstring Generator
+- [Coffee Coffee](https://alfred.app/workflows/vitor/coffee-coffee/)
 
 ## General settings
 
@@ -99,6 +72,9 @@ brew update
 - Profiles: 
   - Columns: 160
   - Rows: 48
+- Text:
+  - Font
+    - Size: 14
 
 ### Safari
 
@@ -115,17 +91,22 @@ brew update
 
 *Downloading straight from Google Drive splits directorys in multiple `.zip` files
 
-### 1Password
-
-- Fill login or Show 1Password shortcut: *Cmd + /*
-
 ### Sublime Text
 
-- Install Package Control
-- Using Package Control, install [WordCount](https://packagecontrol.io/packages/WordCount)
+- Sublime text -> Settings
+
+```
+{
+  "ignored_packages": [], // Enable VIM
+  "vintage_start_in_command_mode": false, // Don't start in INSERT mode 
+  "font_size": 14, // Increase font size
+}
+
+```
+
 - Set `.txt`, `.yml` and `.md` files to open through Sublime by default
 
-## Programming config
+## Configs
 
 ### ~/.config/starship.toml
 
@@ -164,12 +145,7 @@ show_always = false
 ```bash
 # aliases
 alias ll='ls -alh'
-alias driserver='ssh driuser@ip_address'
-alias mrserver='ssh dzhang@ip_address'
-alias tunnel_mrserver='ssh -X -N -f -L localhost:8787:localhost:8787 dzhang@ip_address'
-alias tunnel_rocker_driserver='ssh -X -N -f -L localhost:8888:localhost:8888 driuser@ip_address'
-alias tunnel_rocker_mrserver='ssh -X -N -f -L localhost:8888:localhost:8888 dzhang@ip_address'
-alias cd_phd='cd ~/dz_home/work/phd/'
+alias cd_dz='cd ~/dz_home'
 
 # autocomplete and syntax highlighting
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -180,25 +156,46 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 eval "$(starship init zsh)"
 ```
 
-- Run `conda init zsh`, which will modify `~/.zshrc` and enable `conda activate` for managing venvs. 
+### Conda/mamba
 
-### ~/.vimrc
+```bash
+# modify ~/.zshrc to enable mamba
+conda init zsh
+
+# modify ~/.condarc to not activate base env by default
+# as we use pyenv to manage python versions usually
+# and only use mamba if required
+conda config --set auto_activate_base false
+```
+
+### Vim
+
+- Download gruvbox theme
+
+```bash
+mkdir -p ~/.vim/colors
+curl https://raw.githubusercontent.com/morhetz/gruvbox/master/colors/gruvbox.vim --output ~/.vim/colors/gruvbox.vim
+```
+
+- Set defaults in `~/.vimrc`
 
 ```bash
 set number
 syntax on
 set background=dark
-colorscheme gruvbox
+colorscheme gruvbox 
 ```
 
-### R packages
+### R
+
+- Install essential R packages 
 
 ```R
 # install base packages
-source("https://raw.githubusercontent.com/dzhang32/bioc_docker/main/setup_r_packages.R")
+source("https://raw.githubusercontent.com/dzhang32/mac_setup/main/personal/setup_r_packages.R")
 ```
 
-### R/git config
+- Setup R/git config
 
 ```R
 # use dzhang32/rutils::setup_r_git(append = FALSE) to setup config defaults
