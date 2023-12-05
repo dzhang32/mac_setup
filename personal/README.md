@@ -148,6 +148,11 @@ show_always = false
 alias ll='ls -alh'
 alias cd_dz='cd ~/dz_home'
 
+# add pyenv to PATH and initialise
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
 # autocomplete and syntax highlighting
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 autoload -Uz compinit && compinit
