@@ -32,6 +32,7 @@ brew update
 - [Notion](https://formulae.brew.sh/cask/notion#default)
 - [openssl](https://formulae.brew.sh/formula/openssl@3#default)*
 - [pre-commit](https://formulae.brew.sh/formula/pre-commit)
+- [pipx](https://formulae.brew.sh/formula/pipx)
 - [pyenv](https://formulae.brew.sh/formula/pyenv#default)
 - [qBittorrent](https://formulae.brew.sh/cask/qbittorrent#default)
 - [R](https://formulae.brew.sh/formula/r#default)
@@ -166,6 +167,19 @@ conda init zsh
 # as we use pyenv to manage python versions usually
 # and only use mamba if required
 conda config --set auto_activate_base false
+```
+
+### pipx/poetry
+
+- Use pipx to install poetry (as [recommended](https://python-poetry.org/docs/))
+
+```
+# makes sure pipx can be found in PATH
+pipx ensurepath
+
+# pipx is used to install Python CLI applications globally while still isolating them in virtual environments
+# we want to ensure poetry is installed globally
+pipx install poetry
 ```
 
 ### Vim
