@@ -34,6 +34,7 @@ brew update
 - [pre-commit](https://formulae.brew.sh/formula/pre-commit)
 - [pipx](https://formulae.brew.sh/formula/pipx)
 - [pyenv](https://formulae.brew.sh/formula/pyenv#default)
+- [pyenv-virtualenv](https://formulae.brew.sh/formula/pyenv-virtualenv)
 - [qBittorrent](https://formulae.brew.sh/cask/qbittorrent#default)
 - [R](https://formulae.brew.sh/formula/r#default)
 - [R Studio](https://formulae.brew.sh/cask/rstudio#default)
