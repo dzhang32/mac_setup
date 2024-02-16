@@ -53,7 +53,7 @@ brew update
 ### Alfred workflows
 
 - Set Alfred default hotkey to *Cmd + Space*, replacing Spotlight.
-- [Coffee Coffee](https://alfred.app/workflows/vitor/coffee-coffee/)
+- [caffeinate-control]([https://alfred.app/workflows/vitor/coffee-coffee/](http://www.packal.org/workflow/caffeinate-control))
 
 ## General settings
 
