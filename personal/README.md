@@ -19,10 +19,10 @@ brew update
 - [Alfred](https://formulae.brew.sh/cask/alfred#default)
 - [cmake](https://formulae.brew.sh/formula/cmake)*
 - [Docker](https://formulae.brew.sh/cask/docker#default)
+- [Dropbox](https://formulae.brew.sh/cask/dropbox)
 - [Fibridi](https://formulae.brew.sh/formula/fribidi#default)*
 - [Flux](https://formulae.brew.sh/cask/flux#default)
 - [Google Chrome](https://formulae.brew.sh/cask/google-chrome)
-- [Google Drive](https://formulae.brew.sh/cask/google-drive#default)
 - [harfbuzz](https://formulae.brew.sh/formula/harfbuzz#default)*
 - [htop](https://formulae.brew.sh/formula/htop#default)
 - [libgit2](https://formulae.brew.sh/formula/libgit2#default)*
@@ -53,7 +53,7 @@ brew update
 ### Alfred workflows
 
 - Set Alfred default hotkey to *Cmd + Space*, replacing Spotlight.
-- [caffeinate-control]([https://alfred.app/workflows/vitor/coffee-coffee/](http://www.packal.org/workflow/caffeinate-control))
+- [caffeinate-control](http://www.packal.org/workflow/caffeinate-control)
 
 ## General settings
 
