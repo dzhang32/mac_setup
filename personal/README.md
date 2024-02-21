@@ -84,15 +84,6 @@ brew update
 - Privacy
   - Prevent cross-site tracking: uncheck
 
-### Google drive
-
-- Sync `dz_home` from Google Drive to local by setting directory to available offline
-- Copy `dz_home` directory to `~` via `cp` in terminal*
-- Sync local `dz_home` folder with Google Drive: *Google Drive -> Folders from your computer -> Add folder -> dz_home*
-- Correct any exceptions that could not be synced locally (e.g. `.gsheets`)
-
-*Downloading straight from Google Drive splits directorys in multiple `.zip` files
-
 ### Sublime Text
 
 - Sublime text -> Settings
