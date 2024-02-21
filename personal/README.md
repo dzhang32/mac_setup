@@ -30,6 +30,7 @@ brew update
 - [mariadb-connector-c](https://formulae.brew.sh/formula/mariadb-connector-c#default)*
 - [miniforge](https://formulae.brew.sh/cask/miniforge)
 - [Notion](https://formulae.brew.sh/cask/notion#default)
+- [openjdk](https://formulae.brew.sh/formula/openjdk)**
 - [openssl](https://formulae.brew.sh/formula/openssl@3#default)*
 - [pre-commit](https://formulae.brew.sh/formula/pre-commit)
 - [pipx](https://formulae.brew.sh/formula/pipx)
@@ -49,6 +50,17 @@ brew update
 - [zsh-syntax-highlighting](https://formulae.brew.sh/formula/zsh-syntax-highlighting#default)
 
 *required for installation of `R` packages
+**required for installation of `Nextflow`. You may also have to create a [symlink](https://stackoverflow.com/questions/65601196/how-to-brew-install-java) to complete the java installation. 
+
+### Nextflow
+
+Install Nextflow using the recommended [instructions](https://nextflow.io/docs/latest/getstarted.html#installation):
+
+```
+curl -s https://get.nextflow.io | bash
+chmod +x nextflow
+mv nextflow /usr/local/bin/
+```
 
 ### Alfred workflows
 
