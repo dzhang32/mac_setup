@@ -50,6 +50,7 @@ brew update
 - [zsh-syntax-highlighting](https://formulae.brew.sh/formula/zsh-syntax-highlighting#default)
 
 *required for installation of `R` packages
+
 **required for installation of `Nextflow`. You may also have to create a [symlink](https://stackoverflow.com/questions/65601196/how-to-brew-install-java) to complete the java installation. 
 
 ### Nextflow
