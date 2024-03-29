@@ -38,6 +38,7 @@ brew update
 - [qBittorrent](https://formulae.brew.sh/cask/qbittorrent#default)
 - [R](https://formulae.brew.sh/formula/r#default)
 - [R Studio](https://formulae.brew.sh/cask/rstudio#default)
+- [rustup-init](https://formulae.brew.sh/formula/rustup-init)
 - [Slack](https://formulae.brew.sh/cask/slack#default)
 - [Spotify](https://formulae.brew.sh/cask/spotify#default)
 - [Starship](https://formulae.brew.sh/formula/starship#default)
@@ -49,6 +50,18 @@ brew update
 - [zsh-syntax-highlighting](https://formulae.brew.sh/formula/zsh-syntax-highlighting#default)
 
 *required for installation of `R` packages
+
+
+### Rust
+
+- Run `rustup-init` to install `rustc`, `cargo` and `rustup`.
+- Verify installations through:
+
+```bash
+rustc --version
+cargo --version
+rustup --version
+```
 
 ### Alfred workflows
 
