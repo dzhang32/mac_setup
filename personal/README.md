@@ -30,6 +30,7 @@ brew update
 - [mariadb-connector-c](https://formulae.brew.sh/formula/mariadb-connector-c#default)*
 - [miniforge](https://formulae.brew.sh/cask/miniforge)
 - [Notion](https://formulae.brew.sh/cask/notion#default)
+- [openjdk](https://formulae.brew.sh/formula/openjdk)**
 - [openssl](https://formulae.brew.sh/formula/openssl@3#default)*
 - [pre-commit](https://formulae.brew.sh/formula/pre-commit)
 - [pipx](https://formulae.brew.sh/formula/pipx)
@@ -50,7 +51,17 @@ brew update
 - [zsh-syntax-highlighting](https://formulae.brew.sh/formula/zsh-syntax-highlighting#default)
 
 *required for installation of `R` packages
+**required for installation of `Nextflow`. You may also have to create a [symlink](https://stackoverflow.com/questions/65601196/how-to-brew-install-java) to complete the java installation.
 
+### Nextflow
+
+Install Nextflow using the recommended [instructions](https://nextflow.io/docs/latest/getstarted.html#installation):
+
+```bash
+curl -s https://get.nextflow.io | bash
+chmod +x nextflow
+mv nextflow /usr/local/bin/
+```
 
 ### Rust
 
@@ -79,12 +90,12 @@ rustup --version
 - Docker & Menu Bar:
   - Auto-hide Dock: check
   - Show recent applications: uncheck
-- Keyboard: 
+- Keyboard:
   - Correct spelling automatically: uncheck
 
-### Terminal 
+### Terminal
 
-- Profiles: 
+- Profiles:
   - Columns: 160
   - Rows: 48
 - Text:
@@ -97,20 +108,11 @@ rustup --version
 - Privacy
   - Prevent cross-site tracking: uncheck
 
-### Google drive
-
-- Sync `dz_home` from Google Drive to local by setting directory to available offline
-- Copy `dz_home` directory to `~` via `cp` in terminal*
-- Sync local `dz_home` folder with Google Drive: *Google Drive -> Folders from your computer -> Add folder -> dz_home*
-- Correct any exceptions that could not be synced locally (e.g. `.gsheets`)
-
-*Downloading straight from Google Drive splits directorys in multiple `.zip` files
-
 ### Sublime Text
 
 - Sublime text -> Settings
 
-```
+```bash
 {
   "ignored_packages": [], // Enable VIM
   "vintage_start_in_command_mode": false, // Don't start in INSERT mode 
@@ -224,7 +226,7 @@ colorscheme gruvbox
 
 ### R
 
-- Install essential R packages 
+- Install essential R packages
 
 ```R
 # install base packages
