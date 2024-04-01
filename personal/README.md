@@ -66,9 +66,15 @@ mv nextflow /usr/local/bin/
 ### Rust
 
 - Run `rustup-init` to install `rustc`, `cargo` and `rustup`.
+- Run `rustup component add rustfmt`
 - Verify installations through:
 
 ```bash
+# Install rustc, cargo and rustup
+rustup-init
+
+rustup component add rustfmt clippy
+
 rustc --version
 cargo --version
 rustup --version
