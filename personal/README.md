@@ -174,6 +174,9 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
 # autocomplete and syntax highlighting
+# depending on macos/macbook version, paths may need to be:
+# /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh and
+# /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 autoload -Uz compinit && compinit
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
