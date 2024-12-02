@@ -17,6 +17,7 @@ brew update
 - [1Password](https://formulae.brew.sh/cask/1password#default)
 - [Adobe Acrobat Reader DC](https://formulae.brew.sh/cask/adobe-acrobat-reader)
 - [Alfred](https://formulae.brew.sh/cask/alfred#default)
+- [bat](https://formulae.brew.sh/formula/bat)
 - [cmake](https://formulae.brew.sh/formula/cmake)*
 - [Docker](https://formulae.brew.sh/cask/docker#default)
 - [Dropbox](https://formulae.brew.sh/cask/dropbox)
