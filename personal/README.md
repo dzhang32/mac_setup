@@ -41,7 +41,7 @@ brew update
 - [qBittorrent](https://formulae.brew.sh/cask/qbittorrent#default)
 - [R](https://formulae.brew.sh/formula/r#default)
 - [R Studio](https://formulae.brew.sh/cask/rstudio#default)
-- [rustup-init](https://formulae.brew.sh/formula/rustup-init)
+- [rustup](https://formulae.brew.sh/formula/rustup)
 - [Slack](https://formulae.brew.sh/cask/slack#default)
 - [Spotify](https://formulae.brew.sh/cask/spotify#default)
 - [Starship](https://formulae.brew.sh/formula/starship#default)
@@ -69,9 +69,6 @@ mv nextflow /usr/local/bin/
 
 
 ```bash
-# Install rustc, cargo and rustup.
-rustup-init
-
 # Install rust formatter/linter.
 rustup component add rustfmt clippy
 
