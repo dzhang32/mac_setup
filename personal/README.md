@@ -128,35 +128,7 @@ rustup --version
 
 ### ~/.config/starship.toml
 
-```toml
-[directory]
-truncate_to_repo = true
-truncation_length = 3
-truncation_symbol = "…/"
-
-[conda]
-format = "[$symbol$environment](bold green) "
-
-[python]
-format = "[$symbol$version](bold yellow) "
-
-[git_status]
-conflicted = "🏳"
-ahead = "🏎💨"
-behind = "😰"
-diverged = "😵"
-untracked = "🤷‍"
-stashed = "📦"
-modified = "📝"
-staged = '[++\($count\)](green)'
-renamed = "👅"
-deleted = "🗑"
-
-[username]
-style_user = "white"
-format = "[$user]($style) "
-show_always = false
-```
+- Follow installation [instructions](https://starship.rs/guide/#🚀-installation) including `Nerd font` installation and then use `.starship.toml` config. 
 
 ### ~/.zshrc
 
