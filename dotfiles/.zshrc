@@ -5,9 +5,9 @@ alias ll='ls -alh'
 alias vim='vim -c "set clipboard=unnamed"'
 
 # zsh autocomplete and syntax highlighting
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 autoload -Uz compinit && compinit
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # starship
 eval "$(starship init zsh)"
