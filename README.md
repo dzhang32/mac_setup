@@ -29,7 +29,8 @@ chmod u+x scripts/setup_ssh_keys.sh && source scripts/setup_ssh_keys.sh
   - Rows: 48
 - Text:
   - Font
-    - Size: 14
+    - Typeface: FiraCode Nerd Font
+    - Size: 16
 
 ### Brave
 
