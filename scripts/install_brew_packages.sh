@@ -13,7 +13,6 @@ brew install --cask claude-code
 brew install --cask cursor
 brew install --cask docker
 brew install --cask font-fira-code-nerd-font
-brew install gh
 brew install htop
 brew install --cask nordvpn
 brew install --cask notion
