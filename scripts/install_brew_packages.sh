@@ -19,7 +19,6 @@ brew install --cask notion
 brew install --cask qbittorrent
 brew install r
 brew install rustup-init
-brew install --cask spotify
 brew install starship
 brew install --cask sublime-text
 brew install --cask vlc
