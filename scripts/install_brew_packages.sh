@@ -7,7 +7,6 @@ brew install --cask 1password
 brew install --cask adobe-acrobat-reader
 brew install atuin
 brew install --cask brave-browser
-brew install --cask chatgpt
 brew install --cask claude
 brew install --cask claude-code
 brew install --cask cursor
